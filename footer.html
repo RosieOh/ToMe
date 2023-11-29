@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css" />
+    <style>
+      /* 생략 */
+
+      ul {
+        /* ul의 하위요소(li) 수평정렬을 위해 기본마진, 패딩 제거 */
+        margin: 0;
+        padding: 0;
+      }
+      footer {
+        width: 1080px;
+        height: 310px;
+        margin: auto;
+        padding: 0 8px 0 8px; /* 각각 위 오른쪽 아래 왼쪽 */
+        display: flex;
+        flex-direction: column; /* 요소들을 수평정렬 */
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="notice_box">
+        <h4>업데이트 소식</h4>
+      </div>
+      <div class="aside_box">
+        <div class="area_user">
+          <div class="area_user_row">
+            <span class="text_bold-13">주소</span>
+            <ul>
+              <li>
+                (34430) 대전광역시 대덕구 한남로 70 한남대학교 인사례교양동 4층
+              </li>
+            </ul>
+          </div>
+          <div class="area_user_row">
+            <span class="text_bold-13">전화번호</span>
+            <ul>
+              <li>042-629-8382</li>
+            </ul>
+          </div>
+          <div class="area_user_row">
+            <span class="text_bold-13">SNS</span>
+            <ul>
+              <li><img src="img/facebook.png" width="25" height="25" /></li>
+              <li><img src="img/instagram.png" width="25" height="25" /></li>
+            </ul>
+          </div>
+        </div>
+        <div class="area_col">
+          <div class="ac_content"></div>
+        </div>
+        <div class="area_col">
+          <div class="ac_content"></div>
+        </div>
+      </div>
+      <div class="bottom_box"></div>
+    </footer>
+  </body>
+</html>
