@@ -11,12 +11,6 @@
 
 </p>
 
-|      오태훈                              |   김상아 |                                            
-|:--------------------------------------:|:--------:|
-| FullStack Developer                    | Front End Developer |
-| [@RosieOh](https://github.com/rosieoh) | [@saaaaaaaaaanga](https://github.com/saaaaaaaaaanga) |
-
-
 ## 기술 스택
 
 ### 📚 Tech Stack
