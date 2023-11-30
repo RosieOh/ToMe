@@ -3,6 +3,12 @@
 
 🔥위 프로젝트는 Apache Licence에 따라 저작권법을 따릅니다.🔥
 
+<br/>
+<p>각각의 브랜치로 구분</p>
+프론트엔드 : frontend
+<br/>
+백엔드 : backend
+
 <p align="center">
 
 <!--
