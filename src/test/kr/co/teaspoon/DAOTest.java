@@ -1,6 +1,5 @@
-package kr.co.teaspoon;
+package kr.co.tome;
 
-import kr.co.teaspoon.dto.Sample;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 import org.junit.runner.RunWith;

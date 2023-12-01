@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll to Top Button</title>
+    <style>
+      #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 페이지 내용 -->
+    <div>
+      <!-- 여기에 페이지 내용이 들어갑니다 -->
+      <!-- 아이콘을 클릭하면 페이지 맨 위로 올라가도록 설정 -->
+      <button id="scrollToTopBtn" onclick="scrollToTop()">^</button>
+    </div>
+
+    <script>
+      // 스크롤 위치가 일정 이상 내려갔을 때 버튼을 보이게 하는 함수
+      window.onscroll = function () {
+        showScrollTopButton();
+      };
+
+      // 버튼을 클릭하면 페이지 맨 위로 올라가는 함수
+      function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+      }
+
+      // 스크롤 위치에 따라 버튼을 보이게/숨기는 함수
+      function showScrollTopButton() {
+        var button = document.getElementById("scrollToTopBtn");
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          button.style.display = "block";
+        } else {
+          button.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

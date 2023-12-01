@@ -1,4 +1,4 @@
-package kr.co.teaspoon;
+package kr.co.tome;
 
 import javax.inject.Inject;
 
